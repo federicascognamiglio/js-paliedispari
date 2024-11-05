@@ -27,6 +27,5 @@ function isPalindrome(word) {
         reverseWord += curChar;
         console.log(reverseWord);
     }
-    
     return (reverseWord === word);
 }

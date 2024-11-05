@@ -29,8 +29,17 @@ Dichiariamo chi ha vinto.
 
 ### DATI
 1. Scelta pari/dispari dell'utente
-2. Numero random
+2. Scelta numero utente
+3. Numero random
 
 ### ESECUZIONE LOGICA
+- Definisco una funzione che generi un numero random
+- Sommo il numero dell'utente con quello del computer
+- Definisco una funzione che mi dica 
+    **SE** somma è divisibile per 2 (resto 0) 
+    Il numero è pari
+    **ALTRIMENTI** 
+    Il numero è dispari
 
-
+### OUTPUT 
+- Hai vinto/perso
