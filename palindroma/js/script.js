@@ -1,5 +1,5 @@
 // DATI
-const userWord = prompt("Dimmi una parola e ti dirò se è palindroma");
+const userWord = prompt("Dimmi una parola e ti dirò se è palindroma","anna");
 
 // ESECUZIONE LOGICA
 let isPal = isPalindrome(userWord);
@@ -22,14 +22,11 @@ if (isPal) {
 
 function isPalindrome(word) {
     let reverseWord = "";
-    for (let i = word.length; i >= 0; i--) {
+    for (let i = word.length -1; i >= 0; i--) {
         const curChar = word[i];
         reverseWord += curChar;
         console.log(reverseWord);
     }
-    let isPal = false;
-    if (reverseWord === word) {
-        isPal = true;
-    }
-    return isPal;
+    
+    return (reverseWord === word);
 }
