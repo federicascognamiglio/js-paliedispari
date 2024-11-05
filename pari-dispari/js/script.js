@@ -10,6 +10,7 @@ console.log(summ);
 
 // OUTPUT
 const numEven = evenOdd(summ);
+const userChoice = capitalizeWord(evenOddUser);
 if (numEven === userChoice) {
     console.log("Hai vinto! :)");
 } else {
